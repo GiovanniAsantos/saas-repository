@@ -1,0 +1,27 @@
+.content-dnd .ant-spin-container {
+    margin-left: -29px !important;
+    margin-right: -30px !important;
+    margin-top: -24px !important;
+  } 
+  
+  
+  
+  .criarAtividade:hover::-webkit-scrollbar-track {
+  
+    background-color: #F0F0F0;
+  }
+  
+  .criarAtividade::-webkit-scrollbar {
+      width: 8px; /* Largura da barra de rolagem */
+      height: 8px;
+  }
+  
+  .criarAtividade::-webkit-scrollbar-thumb {
+    border-radius: 10px; /* Borda arredondada do polegar da barra */
+  }
+  
+  .btn-cancel.ant-btn-primary:hover {
+    background-color: initial; /* Mantém a cor de fundo original */
+    border-color: initial; /* Mantém a cor da borda original */
+  }
+  

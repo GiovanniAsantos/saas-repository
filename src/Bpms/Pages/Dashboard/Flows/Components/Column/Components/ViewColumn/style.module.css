@@ -1,0 +1,183 @@
+/* .content-dnd .ant-spin-container {
+  margin-left: -29px !important;
+  margin-right: -30px !important;
+  margin-top: -24px !important;
+} */
+
+.new-column{
+    overflow-y: hidden;
+  }
+  
+  .fomr-new-column::-webkit-scrollbar {
+    width: 8px !important; /* Largura da barra de rolagem */
+    height: 8px !important;
+  
+  }
+  
+  .fomr-new-column::-webkit-scrollbar-thumb {
+    background-color: #bfbfbf !important; /* Cor da barra de rolagem */
+    border-radius: 10px !important; /* Borda arredondada do polegar da barra */
+  }
+  
+  .fomr-new-column::-webkit-scrollbar-track {
+    padding: 2px 2px !important;
+    background-color: #F0F0F0 !important; /* Cor do trilho da barra de rolagem */
+    border-radius: 4px !important;
+  }
+  
+  .radioButtons {
+    display: flex;
+    width: 100%;
+    height: 3rem;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    border: none;
+    font-weight: 600;
+    outline: none;
+  
+    /* span {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 0.5rem;
+    } */
+  }
+  
+  .aceite {
+    background: #5661eb50;
+  }
+  
+  .aceite:hover {
+    background: #5661eb;
+    color: #000;
+  }
+  
+  .assinar {
+    background: #ead24a50;
+  }
+  
+  .assinar:hover {
+    background: #ead24a;
+    color: #000;
+  }
+  
+  .resposta {
+    background: #25855350;
+  }
+  
+  .resposta:hover {
+    background: #258553;
+    color: #000;
+  }
+  
+  .ant-form-item-label {
+    font-weight: 500;
+  }
+  
+  .ant-form-item-explain-error {
+    color: #ee4266;
+    font-size: 0.8rem;
+  }
+  
+  .new-column .ant-input.ant-input-status-error.css-dev-only-do-not-override-sk7ap8.inputMod {
+    border: 1px solid #ee426670;
+  }
+  
+  .new-column .ant-select.ant-select-in-form-item.css-dev-only-do-not-override-sk7ap8,
+  .ant-select.ant-select-in-form-item.css-dev-only-do-not-override-sk7ap8 .ant-select-selector,
+  .ant-select.ant-select-in-form-item.css-dev-only-do-not-override-sk7ap8 {
+    height: 2.5rem !important;
+    background-color: #47474705 !important;
+    border: none !important;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 4px;
+  }
+  
+  .new-column .ant-select.ant-select-in-form-item.ant-select-status-error.css-dev-only-do-not-override-sk7ap8.ant-select-single.ant-select-show-arrow {
+    border: 1px solid #ee426670 !important;
+    border-radius: 5px;
+  }
+  
+  .checkboxHeader {
+    font-weight: 600;
+    font-size: 0.9rem;
+  }
+  
+  .checkboxText {
+    font-weight: 500;
+    margin: 0;
+  }
+  
+  .subText {
+    margin: 0 0 0 1.5rem;
+    font-size: 0.8rem;
+  }
+  
+  .buttonMod {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: center;
+    height: 2.5rem;
+    width: 100%;
+    margin: 0.5rem 0;
+    border: none;
+    background: #a2b8d5;
+    color: #fff;
+    font-weight: 600;
+    outline: none;
+  }
+  
+  .buttonMod:active {
+    border: none;
+  }
+  
+  .buttonMod:hover {
+    color: #fff;
+    background: #5683b8;
+  }
+  
+  .papper-col {
+    background-color: #CCC;
+    padding: 22px;
+    border-radius:8px ;
+  }
+  
+  .papper-col-blank {
+    background-color: #FFF;
+    padding: 30px;
+    border-radius: 10px;
+  }
+  
+  .papper-col .papper-col-blank .papper-col-blank-title {
+    text-align-last: center;
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 10px;
+  }
+  
+  .fields .ant-card {
+    box-shadow: 1px 1px 0px 0px #ffffff !important;
+    border: 0px !important;
+  }
+  
+  .fields .ant-card .ant-card-head {
+    border: 0px !important;
+    min-height: 5px !important;
+  }
+  
+  .backspace {
+    margin-left: 20px;
+   }
+  
+   .backspace-1 {
+    margin-left: 5px;
+   }
+  
+  .title {
+    margin-left: 5px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: none;
+  }

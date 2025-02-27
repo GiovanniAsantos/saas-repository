@@ -1,0 +1,122 @@
+.modalPrincipal .content {
+    height: 70vh; /* Ajuste conforme necessário */
+    display: flex;
+    justify-content: space-around; /* Espaçamento entre os itens */
+    width: 100%; /* Usa toda a largura disponível */
+    gap: 20px; /* Espaçamento entre os contêineres */
+  }
+  
+  .leftCard {
+    width: 500px;
+    gap: 20px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .rigthCards {
+    height: 70vh;
+    width: 500px; /* Largura de 60% da largura do contêiner .content */
+    display: flex;
+    flex-direction: column; /* Empilha os cards verticalmente */
+    gap: 20px; /* Espaçamento entre os cards */
+    overflow-y: auto; /* Adiciona uma barra de rolagem vertical se necessário */
+    max-height: 70vh; 
+  }
+  
+  
+  .cardAttHistorico{
+    height: 23vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+  
+  .cardFormVerificador{
+    overflow-y: auto;
+    max-height: 70vh;
+    min-height: 50vh;
+    flex-grow: 1; /* Faz o card ocupar o espaço disponível */
+  }
+  
+  .cardDataFormInit,
+  .cardHistorico {
+    height: 100%;
+    overflow-y: auto;
+    height: 70vh; /* Faz com que os cards ocupem toda a altura do contêiner pai */
+  }
+  
+  .cardDataFormInit,
+  .cardHistorico {
+    width: 100%; /* Faz com que os cards da direita ocupem toda a largura do contêiner .rightCards */
+  }
+  
+  
+  .rigthCards::-webkit-scrollbar,
+  .rigthCards::-webkit-scrollbar {
+    width: 8px; /* Largura da barra de rolagem */
+    height: 8px;
+  }
+  
+  .rigthCards::-webkit-scrollbar-thumb,
+  .rigthCards::-webkit-scrollbar-thumb {
+    background-color: #bfbfbf; /* Cor da barra de rolagem */
+    border-radius: 10px; /* Borda arredondada do polegar da barra */
+  }
+  
+  .rigthCards::-webkit-scrollbar-track,
+  .rigthCards::-webkit-scrollbar-track {
+    padding: 2px 2px;
+    background-color: #F0F0F0; /* Cor do trilho da barra de rolagem */
+    border-radius: 4px;
+  }
+  
+  /* Títulos e Dados */
+  .titleCardsData {
+    margin-left: 5px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  
+  .titleFormInit {
+    align-items: center;
+  }
+  
+  .divFormInit {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .creator,
+  .verificador {
+    height: 2vh;
+  }
+  
+  .dadosCriador,
+  .dadosVerificador {
+    color: #b1acac;
+  }
+  
+  /* Ajuste do título das etapas */
+  .stepTitle {
+    display: flex;
+    width: 15vw;
+    justify-content: space-around;
+  }
+  
+  .stepTitleModal,
+  .stepTitlePanel {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .stepTitleModal {
+    width: 100%;
+  }
+  
+  .stepTitlePanel {
+    width: 20vw;
+  }
+  

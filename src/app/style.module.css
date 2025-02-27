@@ -1,0 +1,17 @@
+.backgroundImage {
+  background-image: url(/niamsigninbg.svg);
+  background-size: auto 80vh;
+  background-position: top right;
+  /* background-position: right; */
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  height: 80vh;
+  /* padding: 20px; */
+  /* z-index: 9999; */
+}
+
+@media (max-width: 900px) {
+  .backgroundImage {
+    background-image: none;
+  }
+}

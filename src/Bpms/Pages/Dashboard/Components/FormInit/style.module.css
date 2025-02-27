@@ -1,0 +1,36 @@
+.subText {
+    margin: 0 0 0 1.5rem;
+    font-size: 0.8rem;
+  }
+  
+  .content-form {
+    text-align-last: center;
+  }
+  
+  .papper-col {
+    background-color: #CCC;
+    padding: 22px;
+  }
+  
+  .papper-col-blank {
+    background-color: #FFF;
+    padding: 30px;
+    border-radius: 10px;
+  }
+  
+  .papper-col .papper-col-blank .papper-col-blank-title {
+    text-align-last: center;
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 10px;
+  }
+  
+  .fields .ant-card {
+    box-shadow: 1px 1px 0px 0px #ffffff !important;
+    border: 0px !important;
+  }
+  
+  .fields .ant-card .ant-card-head {
+    border: 0px !important;
+    min-height: 5px !important;
+  }

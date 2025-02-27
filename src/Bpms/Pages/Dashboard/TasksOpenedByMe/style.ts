@@ -1,0 +1,33 @@
+import styled from "styled-components";
+
+export const Container = styled.div`
+  .header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: -10px;
+    margin-top: -10px;
+  }
+
+  h6 {
+    margin-bottom: -6px;
+  }
+
+  .ant-dropdown-menu-item {
+    background: red;
+  }
+
+  .inputMod {
+    height: 2.5rem;
+    background: #47474708;
+    border: 1px solid #ffffff00;
+
+    color: #283854;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 4px;
+
+    &:focus {
+      border: 1px solid #729fed;
+    }
+  }
+`;

@@ -1,0 +1,99 @@
+.content-dnd .ant-spin-container {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+  margin-top: 0px !important;
+}
+
+.content-dnd .ant-float-btn-content {
+  justify-content: space-between !important;
+  flex-direction: row !important;
+  background-color: #2d415a;
+  
+}
+
+.content-dnd .ant-float-btn-content .ant-float-btn-icon {
+  padding-left: 7px !important;
+  padding-right: 27px !important;
+}
+
+.content-dnd .ant-float-btn-content .ant-float-btn-description {
+  float: right !important;
+}
+
+.menu-01 {
+  height: 60px;
+  background: white;
+  border-bottom: 1px solid #F0F0F0;
+  align-content: center;
+  display: flex;
+}
+
+.menu-01-left {
+  text-align: center;
+  padding-right: 15px;
+  align-content: center;
+}
+
+.menu-01-right {
+  display: inline-flex
+}
+
+.menu-01-right-btn {
+  border: 0px;
+  font-size: 20px;
+}
+
+.menu-02 {
+  height: auto;
+  background: white;
+  justify-content: space-between;
+  align-content: center;
+  display: flex;
+  width: 100%;
+  border-bottom-left-radius: 8px !important;
+  border-bottom-right-radius: 8px;
+}
+
+.menu-02 .ant-segmented-group{
+  border-bottom-left-radius: 8px !important;
+}
+
+.menu-02 .ant-segmented {
+  padding-top: 15px !important;
+  padding: 0px !important;
+  background-color: white !important;
+  border-radius: 0px !important;
+  border-bottom-left-radius: 8px !important;
+}
+
+.menu-02 .ant-segmented .ant-segmented-item-selected {
+  background-color: #ffffff;
+  box-shadow: none !important;
+  color: #2D415A;
+  font-weight: bold;
+  border-bottom-left-radius: 8px !important;
+}
+
+.menu-02-right {
+  text-align: end;
+  padding-right: 15px;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+ .btnCriarAtividade{
+  padding-right: 10px;
+  background-color: #2d415a;
+} 
+
+.divPaiInputBtns{
+  display: block;
+}
+
+.inputSearch{
+  display: flex;
+  width: 200px;
+}

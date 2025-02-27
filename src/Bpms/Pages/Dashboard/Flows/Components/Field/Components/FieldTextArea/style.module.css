@@ -1,0 +1,20 @@
+/* .content-dnd .ant-spin-container {
+  margin-left: -29px !important;
+  margin-right: -30px !important;
+  margin-top: -24px !important;
+} */
+
+.subText {
+    margin: 0 0 0 1.5rem;
+    font-size: 0.8rem;
+    color: rgb(191, 191, 191);
+  }
+  
+  .content-form {
+    text-align-last: center;
+  }
+  
+  .custom-textArea{
+    width: 180px;
+    height: 20px;
+  }

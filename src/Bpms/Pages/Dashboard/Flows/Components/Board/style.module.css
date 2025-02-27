@@ -1,0 +1,40 @@
+.kanban {
+    display: -webkit-box;
+    justify-content: space-between;
+    height: 100%;
+    overflow-x: auto;
+    margin-top: 8px;
+  }
+  
+  .kanban .container-fluid {
+    padding: 0px;
+  }
+  
+  .kanban::-webkit-scrollbar-track {
+    padding: 2px 0;
+    background-color: #F0F0F0;
+  }
+  
+  .kanban::-webkit-scrollbar {
+      width: 8px; /* Largura da barra de rolagem */
+      height: 8px;
+  }
+  
+  .kanban::-webkit-scrollbar-thumb {
+    background-color: #bfbfbf; /* Cor da barra de rolagem */
+    border-radius: 10px; /* Borda arredondada do polegar da barra */
+  }
+  
+  .alerta{
+    align-items: center;
+    text-align: center;
+  }
+  
+  .alertaText{
+    font-size: 15px;
+    margin-top: -5vh;
+  }
+  
+  .imgAlerta{
+    margin-top: -4vh;
+  }
